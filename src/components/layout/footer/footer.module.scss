@@ -1,0 +1,63 @@
+.footer {
+    padding: 40px 20px;
+    background-color: rgb(33, 33, 33);
+
+    .footerItem {
+        ul {
+            list-style: none;
+
+            li {
+                a {
+                    display: block;
+                    padding: 5px
+                }
+            }
+        }
+
+        a {
+            color: #fff;
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        .inputGroup {
+            display: flex;
+            align-items: center;
+
+            .input {
+                min-height: 50px;
+                width: 100%;
+                padding: 0 1rem;
+                color: #fff;
+                font-size: 15px;
+                border: 1px solid #5e4dcd;
+                border-radius: 6px 0 0 6px;
+                background-color: transparent;
+
+                &:focus,
+                &:focus-visible {
+                    border-color: #3898EC;
+                    outline: none;
+                }
+            }
+
+            .buttonSubmit {
+                min-height: 50px;
+                padding: .5em 1em;
+                border: none;
+                border-radius: 0 6px 6px 0;
+                background-color: #5e4dcd;
+                color: #fff;
+                font-size: 15px;
+                cursor: pointer;
+                transition: background-color .3s ease-in-out;
+
+                &:hover {
+                    background-color: #5e5dcd;
+                }
+            }
+        }
+    }
+}
